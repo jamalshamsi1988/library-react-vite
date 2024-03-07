@@ -1,4 +1,5 @@
 import styles from '../Layouts/Layout.module.css'
+import { IoHeart } from "react-icons/io5";
 const Layout = ({children}) => {
   return (
     <>
@@ -7,7 +8,7 @@ const Layout = ({children}) => {
         <p>Jamal Shamsi <span>| React.js</span></p> 
       </header>
       {children}
-      <footer className={styles.footer}>Develpoed by Jamal Shamsi </footer>
+      <footer className={styles.footer}>Develpoed by Jamal Shamsi <IoHeart /></footer>
     </>
   )
 }
